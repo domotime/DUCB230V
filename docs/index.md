@@ -1,6 +1,6 @@
 # Introduzione
 
-![alt Centrale per canccelli](assets/DUCB230V.jpeg "Centrale per cancelli")
+![alt Centrale per cancelli](assets/DUCB230V.jpeg "Centrale per cancelli")
 
 In questa guida vengono presentate tutte le funzionalità della centrale universale per motori a 230 V. Questa centrale è adatta a comandare
 
