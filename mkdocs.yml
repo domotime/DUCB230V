@@ -1,1 +1,5 @@
 site_name: DUCB230V
+
+nav:
+  - Introduzione: index.md
+  - Dati Tecnici: wiring.md
