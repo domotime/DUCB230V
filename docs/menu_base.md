@@ -1,0 +1,10 @@
+| DISPLAY | DESCRIZIONE |
+| --- | --- |
+| `USCITA LAMP` | - **USCITA LAMP CONTINUA**:<br> utilizzare un lampeggiante con circuito di auto-lampeggio integrato<br><br> - **USCITA LAMP INTERMITTENTE**:<br> La centrale simula il lampeggio su una normale lampada |
+| `ELETTROSERRATURA` | Da 0 a 6 s<br>**TEMPO DI ATTIVAZIONE ELETTRO-SERRATURA**<br> espresso in secondi (0 = DISABILITATO) | 
+| `CH AUTO` | - **CH AUTO ABILITATO**:<br> Attiva la chiusura automatica allo scadere del tempo di pausa<br><br>- **CH AUTO DISABILITATO**:<br> Disabilita la chiusura automatica |
+| `TEMPO PAUSA` | Questa voce è disponibile solo se `CH AUTO` è abilitato<br><br>**TEMPO DI PAUSA** impostabile da 0 a 120 s: Tempo di pausa prima della chiusura automatica |
+| `FOTO & TP` | Questa voce è disponibile solo se `CH AUTO` è abilitato<br><br>- **FOTO & TP ---**: A cancello fermo e in posizione di apertura totale (o apertura pedonale) il passaggio sulla fotocellula riporta il tempo pausa al valoree impostato nel menu `TEMPO PAUSA`<br><br>- **FOTO & TP 5s**: a cancello fermo e in posizione di apertura totale (o apertura pedonale) il passaggio sulla fotocellula porta il tempo pausa a 5s. |
+| `SFAS. CHIUSURA M1` | **SFASAMENTO IN CHIUSURA M1** (da 0s a 15s):<br> definisce in fase di chiusura lo sfasamento tra le due ante allo scopo di evitare la loro sovrapposizione.<br><br> In chiusura l’anta M1 (battente) si muove in ritardo rispetto l’anta M2 (battuta) a seconda del tempo impostato. A 0s lo sfasamento viene disabilitato. |
+| `RALLENTAMENTO` | **RALLENTAMENTO**:<br> Tempo di durata del rallentamento (da 0 al 25% del `TEMPO LAVORO M1` e `TEMPO LAVORO M2`)<br><br>A 0 il rallentamento viene disabilitato (sconsigliato) |
+| `COSTA SENSIBILE` | - **COSTA SENSIBILE NC**:<br> Tipologia meccanica con contatto normalmente chiuso.<br><br>- **COSTA SENSIBILE 8K2**:<br> Tipologia resistiva 8k2ohm<br><br>Solo durante il movimento di chiusura del cancello, l’intervento da parte della costa sensibile provoca una breve inversione di marcia (durata 1s) per liberare l’ostacolo. |

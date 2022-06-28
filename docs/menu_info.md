@@ -1,0 +1,8 @@
+| DISPLAY | DESCRIZIONE |
+| --- | --- |
+| `MOT - NMOT - FCA - FCC` | INFO IMPIANTO:<br>**EL**: Elettromeccanico **OL**: Oleodinamico **N**: Assenti **Y**: Presenti |
+| `TEMPO LAVORO M1` | Questa voce di menu è disponibile solo per impianto con motori Elettromeccanici.<br><br>**TEMPO LAVORO M1**: <br>Tempo lavoro impiegato dal motore M1 per eseguire una apertura/chiusura completa.<br><br>NOTA: a centrale non installata il tempo lavoro è impostato al valore massimo di 60s. |
+| `TEMPO LAVORO M2` | Questa voce di menu è disponibile solo per impianto con motori Elettromeccanici.<br><br> **TEMPO LAVORO M2**:<br>Tempo lavoro impiegato dal motore M2 per eseguire una apertura/chiusura completa.<br><br>NOTA: a centrale non installata il tempo lavoro è impostato al valore massimo di 60s. |
+| `NUM. MANOVRE` | **NUMERO MANOVRE**: <br>Contatore del numero di manovre (chiusure) effettuate durante l’intero ciclo vita della centrale. |
+| `STP FOT1 FOT2 SC` | **TEST INGRESSI**: <br>Consente di verificare il corretto funzionamento degli ingressi.<br><br>Il nome associato all’ingresso inizia a lampeggiante quando risulta essere nello stato di non quiete (ad esempio: un contatto normalmente chiuso (NC) lampeggia se è aperto). |
+| `FCA1 FCC1 FCA2 FCC2` | **TEST INGRESSI FINECORSA**:<br>Consente di verificare il corretto funzionamento degli ingressi di finecorsa.<br><br>Il nome associato all’ingresso inizia a lampeggiare quando risulta essere nello stato di non quiete (ad esempio: un contatto normalmente chiuso (NC) lampeggia se è aperto).<br><br>NOTA: ingressi testabili solo in presenza del modulo opzionale per i finecorsa. |

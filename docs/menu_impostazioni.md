@@ -1,0 +1,6 @@
+| DISPLAY | DESCRIZIONE |
+| --- | --- |
+| `LINGUA` |  - **LINGUA ITA**: centrale in lingua Italiana<br>- **LINGUA ENG**: centrale in lingua Inglese<br>- **LINGUA FRA**: centrale in lingua Francese<br> - **LINGUA ESP**: centrale in lingua Spagnola |
+| `MODO CH2` | - **MODO CH2 MONOSTABILE**:<br> Il relè CH2 chiude il contatto per tutta la durata della pressione del radiocomando associato. Al rilascio del tasto il contatto si apre.<br> ATTENZIONE: Eventuali disturbi possono influire sul funzionamento.<br><br>- **MODO CH2 BISTABILE**: <br>Il relè CH2 mantiene il suo stato fino alla pressione successiva del radiocomando associato. |
+| `RESET INSTALL` | **RESET INSTALLAZIONE**: <br>Ripristino dei parametri appresi durante il processo di installazione. Dopo questo reset sarà richiesta una nuova installazione.<br><br>NOTA: i contatori NUM. MANOVRE non vengono resettati. |
+| `RESET TOTALE` | **RESET TOTALE**:<br> Ripristino di tutti i parametri della centrale. Questo reset riporta la centrale ai valori di fabbrica.<br><br>NOTA: i contatori NUM. MANOVRE non vengono resettati.
