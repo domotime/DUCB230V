@@ -2,7 +2,8 @@ site_name: DUCB230V
 
 nav:
   - Introduzione: index.md
-  - Dati Tecnici: wiring.md
+  - Dati Tecnici: tech_data.md
+  - Collegamento: wiring.md
   - Fotocellule: photocells.md
   - Antenna: antenna.md
   - Menu:
