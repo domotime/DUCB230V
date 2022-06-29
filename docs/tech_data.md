@@ -1,6 +1,6 @@
 
 | Caratteristica | Valore |
-| --- | --- | --- |
+| --- | --- |
 | **Tensione di funzionamento** | 230 V AC ± 10% (50-60 Hz) |
 | **Tensione di uscita Motore** | 230 V AC |
 | **Potenza max. Motore** | 500 W per motore |
