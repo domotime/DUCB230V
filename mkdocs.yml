@@ -1,33 +1,8 @@
 site_name: DUCB230V
 
-nav:
-  - Introduzione: index.md
-  - Dati Tecnici: tech_data.md
-  - Collegamento: wiring.md
-  - Fotocellule: photocells.md
-  - Antenna: antenna.md
-  - Menu:
-    - Menu principale: main_menu.md
-    - Menu base: menu_base.md
-    - Menu avanzato: menu_avanzato.md
-    - Menu impianto: menu_impianto.md
-    - Menu impostazioni: menu_impostazioni.md
-    - Menu info: menu_info.md
-  - Installazione:
-    - Battente 2 ante <br>(Elettro-meccanico): installazione_battente_2_ante_elettromeccanico.md
-    - Battente 1 anta <br>(Elettro-meccanico): installazione_battente_1_anta_elettromeccanico.md
-    - Battente 2 ante <br>(Oleodinamico): installazione_battente_2_ante_oleodinamico.md
-    - Battente 1 anta <br>(Oleodinamico) : installazione_battente_1_anta_oleodinamico
-  - Logica di funzionamento: logica.md
-  - Segnalazione:
-    - Segnalazione spia cancello aperto: segnalazione_sca.md
-    - Segnalazione lampeggiante : segnalazione_lamp.md
-    - Segnalazione errori display : segnalazione_allarmi.md
-  - Telecomandi: telecomandi.md
-
 plugins:
   - search:
-      lang: it
+      lang: ['it', 'en']
       separator: '[\s\-\.]'
 
 theme:
@@ -56,11 +31,70 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+extra_it:
+  site_name: DUCB230V
+  theme:
+    language: it
+  nav:
+    - Introduzione: 'it/index.md'
+    - Dati Tecnici: 'it/tech_data.md'
+    - Collegamento: 'it/wiring.md'
+    - Fotocellule: 'it/photocells.md'
+    - Antenna: 'it/antenna.md'
+    - Menu:
+        - Menu principale: 'it/main_menu.md'
+        - Menu base: 'it/menu_base.md'
+        - Menu avanzato: 'it/menu_avanzato.md'
+        - Menu impianto: 'it/menu_impianto.md'
+        - Menu impostazioni: 'it/menu_impostazioni.md'
+        - Menu info: 'it/menu_info.md'
+    - Installazione:
+        - Battente 2 ante (Elettro-meccanico): 'it/installazione_battente_2_ante_elettromeccanico.md'
+        - Battente 1 anta (Elettro-meccanico): 'it/installazione_battente_1_anta_elettromeccanico.md'
+        - Battente 2 ante (Oleodinamico): 'it/installazione_battente_2_ante_oleodinamico.md'
+        - Battente 1 anta (Oleodinamico): 'it/installazione_battente_1_anta_oleodinamico.md'
+    - Logica di funzionamento: 'it/logica.md'
+    - Segnalazione:
+        - Segnalazione spia cancello aperto: 'it/segnalazione_sca.md'
+        - Segnalazione lampeggiante: 'it/segnalazione_lamp.md'
+        - Segnalazione errori display: 'it/segnalazione_allarmi.md'
+    - Telecomandi: 'it/telecomandi.md'
+
+extra_en:
+  site_name: DUCB230V
+  theme:
+    language: en
+  nav:
+    - Introduction: 'en/index.md'
+    - Technical Data: 'en/tech_data.md'
+    - Connection: 'en/wiring.md'
+    - Photocells: 'en/photocells.md'
+    - Antenna: 'en/antenna.md'
+    - Menu:
+      - Main Menu: 'en/main_menu.md'
+      - Basic Menu: 'en/menu_base.md'
+      - Advanced Menu: 'en/menu_advanced.md'
+      - System Menu: 'en/menu_info.md'
+      - Settings Menu: 'en/settings.md'
+      - Information Menu: 'en/menu_info.md'
+    - Installation:
+      - Swing Gate 2 Leaves (Electro-mechanical): 'en/electromechanical_swing_2_door_installation.md'
+      - Swing Gate 1 Leaf (Electro-mechanical): 'en/electromechanical_swing_1_door_installation.md'
+      - Swing Gate 2 Leaves (Hydraulic): 'en/hydraulic_swing_2_door_installation.md'
+      - Swing Gate 1 Leaf (Hydraulic): 'en/hydraulic_swing_1_door_installation.md'
+    - Operating Logic: 'en/logic.md'
+    - Signaling:
+      - Gate Open Indicator: 'en/signal_sca.md'
+      - Flashing Light: 'en/signal_lamp.md'
+      - Display Error Signals: 'en/alarm_report.md'
+    - Remote Controls: 'en/remotes.md'
+
+
 extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+  alternate:
+    - name: Italiano
+      link: '/it/'
+      lang: 'it'
+    - name: English
+      link: '/en/'
+     

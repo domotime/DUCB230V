@@ -1,4 +1,4 @@
-![alt Collegamento](assets/wiring.png "Collegamento")
+![alt Collegamento](../assets/wiring.png "Collegamento")
 
 <br>
 

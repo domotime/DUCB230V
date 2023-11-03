@@ -4,4 +4,4 @@ Utilizzare un cavo coassiale (RG58 o simile) di impedenza 50 Ohm, con lunghezza 
 
 Per brevi distanze è sufficiente collegare uno spezzone di filo rigido (17 cm per 433.92 MHz, 8.6 cm per 868 MHz).
 
-![alt Collegamento](assets/antenna.jpeg "Collegamento battente")
+![alt Collegamento](../assets/antenna.jpeg "Collegamento battente")

@@ -1,6 +1,6 @@
 Sulla centrale è integrata una ricevente multifrequenza in grado di memorizzare fino a 40 codici fissi o Rolling Code.
 
-![alt Collegamento](assets/moduloRF.png "Collegamento")
+![alt Collegamento](../assets/moduloRF.png "Collegamento")
 
 ## **Registrazione di un radiocomando**
 
