@@ -1,0 +1,6 @@
+| ANZEIGE | BESCHREIBUNG |
+| --- | --- |
+| `LINGUA` | - **LANGUAGE ITA**: Steuereinheit auf Italienisch<br>- **SPRACHE ENG**: Steuereinheit auf Englisch<br>- **SPRACHE FRA**: Steuereinheit auf Französisch<br>- **SPRACHE ESP **: Steuergerät auf Spanisch |
+| `MODO CH2` | - **CH2-MODUS MONOSTABIL**:<br> Das CH2-Relais schließt den Kontakt für die Dauer des Tastendrucks auf der zugehörigen Fernbedienung. Beim Loslassen öffnet sich der Kontakt.<br> ACHTUNG: Mögliche Störungen können den Betrieb beeinträchtigen.<br><br>- **CH2 MODE BISTABLE**: <br>Das CH2-Relais behält seinen Zustand bis zum nächsten Drücken der zugehörigen Taste bei Fernbedienung. |
+| „INSTALLATION ZURÜCKSETZEN“ | **INSTALLATIONS-RÜCKSETZUNG**: <br>Setzt die während des Installationsvorgangs erlernten Parameter zurück. Nach diesem Zurücksetzen ist eine Neuinstallation erforderlich.<br><br>HINWEIS: Die NUM. MANÖVER-Zähler werden nicht zurückgesetzt. |
+| „GESAMT ZURÜCKSETZEN“ | **TOTAL RESET**:<br> Setzt alle Parameter der Steuereinheit zurück. Durch dieses Zurücksetzen werden die Werkswerte wiederhergestellt.<br><br>HINWEIS: Die NUM. MANÖVER-Zähler werden nicht zurückgesetzt. |

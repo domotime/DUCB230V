@@ -1,0 +1,8 @@
+| ANZEIGE | BESCHREIBUNG |
+| --- | --- |
+| „MOT – NMOT – FCA – FCC“ | SYSTEMINFO:<br>**EL**: Elektromechanisch **OL**: Hydraulisch **N**: Nicht vorhanden **Y**: Vorhanden |
+| `TEMPO LAVORO M1` | Dieser Menüpunkt ist nur für Systeme mit elektromechanischen Motoren verfügbar.<br><br>**ARBEITSZEIT M1**: <br>Zeit, die Motor M1 benötigt, um einen vollständigen Öffnungs-/Schließzyklus durchzuführen.<br><br>HINWEIS : Bei nicht installierter Steuereinheit ist die Arbeitszeit auf den Maximalwert von 60 Sekunden eingestellt. |
+| `TEMPO LAVORO M2` | Dieser Menüpunkt ist nur für Systeme mit elektromechanischen Motoren verfügbar.<br><br>**ARBEITSZEIT M2**: <br>Zeit, die Motor M2 benötigt, um einen vollständigen Öffnungs-/Schließzyklus durchzuführen.<br><br>HINWEIS : Bei nicht installierter Steuereinheit ist die Arbeitszeit auf den Maximalwert von 60 Sekunden eingestellt. |
+| `NUM. MANOVRE` | **ANZAHL DER MANÖVER**: <br>Zähler der Anzahl der während des gesamten Lebenszyklus der Steuereinheit durchgeführten Manöver (Öffnungen/Schließungen). |
+| „STP FOT1 FOT2 SC“ | **EINGANGSTEST**: <br>Ermöglicht die Überprüfung der korrekten Funktion der Eingänge.<br><br>Der dem Eingang zugeordnete Name beginnt zu blinken, wenn er sich in einem Ruhezustand befindet (z. B. ein normalerweise geschlossener Zustand (NC).) (Kontakt blinkt, wenn er geöffnet ist). |
+| „FCA1 FCC1 FCA2 FCC2“ | **Endschalter-Eingabetest**: <br>Ermöglicht die Überprüfung der korrekten Funktion der Endschalter-Eingänge.<br><br>Der dem Eingang zugeordnete Name beginnt zu blinken, wenn er sich in einem Ruhezustand befindet (Beispielsweise blinkt ein Öffnerkontakt (NC), wenn er geöffnet ist).<br><br>HINWEIS: Eingänge können nur getestet werden, wenn das optionale Modul für die Endlage vorhanden ist. |
